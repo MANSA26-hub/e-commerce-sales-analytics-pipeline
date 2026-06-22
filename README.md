@@ -9,6 +9,24 @@ This project analyzes a dataset containing 20,000 retail transactions to uncover
 * **Language:** Python 3
 * **Libraries:** Pandas, NumPy, Matplotlib, Seaborn
 * **Environment:** Google Colab / Jupyter Notebooks
+* ## Interactive Excel Dashboard
+
+In addition to the Python-based analysis, an interactive Excel dashboard was developed to provide a visual summary of key business metrics and enable easy exploration of sales performance.
+
+### Dashboard Features
+
+* KPI cards displaying Total Revenue, Total Orders, Average Order Value (AOV), and Units Sold.
+* Interactive slicers for filtering insights by category, payment method, and time period.
+* Monthly sales trend visualizations to monitor business growth and seasonality.
+* Category-wise performance analysis to identify top-performing product segments.
+* Product-level insights highlighting the highest revenue-generating items.
+* User-friendly layout designed for quick decision-making and executive reporting.
+
+### Dashboard File
+
+* **e commerce data dash board.xlsx** – Interactive Excel dashboard containing business KPIs, charts, and slicers for dynamic analysis.
+* **Dashboard Screenshots** – Visual previews of the dashboard included in this repository for easy review without downloading the Excel file.
+
 
 ## Key Analysis Steps Completed
 1. **Data Inspection & Integrity:** Checked schema shapes, verified data types, and confirmed zero missing or duplicate values.
@@ -25,3 +43,4 @@ This project analyzes a dataset containing 20,000 retail transactions to uncover
 1. Clone this repository: `git clone https://github.com`
 2. Open the `ecommerce_sales_analysis.ipynb` file in Google Colab or Jupyter Notebook.
 3. Run the cells sequentially to see the statistical analysis and visualizations.
+4. Open e commerce data dash board.xlsx using Microsoft Excel (Excel 2016 or later recommended) to explore the interactive dashboard and filter insights using slicers.
